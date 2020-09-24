@@ -1,0 +1,71 @@
+{
+  "_from": "payform",
+  "_id": "payform@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RJmaN9kgagImufD8iP6so8F2oUZwRduUdSPcG6Xbh8zu3roOCYmctFEGUH/a/nGNd97npetXEYXJIChN1gYhig==",
+  "_location": "/payform",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "payform",
+    "name": "payform",
+    "escapedName": "payform",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/payform/-/payform-1.4.0.tgz",
+  "_shasum": "d579b9cf1169ec528ea6707cdd67b77cd8073670",
+  "_spec": "payform",
+  "_where": "F:\\Web\\Angular\\reporting.pkatalyst",
+  "author": {
+    "name": "Jonathan D. Johnson",
+    "email": "me@jondavidjohn.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jondavidjohn/payform/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A general purpose library for building credit card forms, validating inputs, and formatting numbers.",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "bundle-collapser": "~1.1.1",
+    "coffeeify": "~1.0.0",
+    "coffeescript": "~1.9.0",
+    "mocha": "^5.2.0",
+    "uglify-js": "~3.3.7",
+    "watch": "~0.13.0"
+  },
+  "homepage": "https://github.com/jondavidjohn/payform#readme",
+  "keywords": [
+    "payment",
+    "form",
+    "cc",
+    "card",
+    "credit card",
+    "formatting",
+    "validation",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "ecosystem:browserify"
+  ],
+  "license": "MIT",
+  "main": "dist/payform.js",
+  "name": "payform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jondavidjohn/payform.git"
+  },
+  "scripts": {
+    "build": "make build",
+    "test": "make test",
+    "watch": "make watch"
+  },
+  "version": "1.4.0"
+}

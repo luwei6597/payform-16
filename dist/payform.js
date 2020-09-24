@@ -681,7 +681,6 @@
         return false;
       }
       card = cardFromType(type);
-      console.log('focsu: ', card)
       if (card != null) {
         return ref = cvc.length, indexOf.call(card.cvcLength, ref) >= 0;
       } else {
